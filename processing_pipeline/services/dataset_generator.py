@@ -4,23 +4,45 @@ import logging
 import json
 from typing import Dict, Any
 from tqdm import tqdm
-from typing import Dict
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# This must match the label schema in your CVAT project
+# --- FIX IS HERE: Added 'default' key to every attribute ---
 ATTRIBUTE_DEFINITIONS = {
-    "ppe_helmet": {"options": ["helmet_worn", "no_helmet", "helmet_incorrect"]},
-    "ppe_vest": {"options": ["vest_worn", "no_vest"]},
-    "ppe_gloves": {"options": ["gloves_worn", "no_gloves"]},
-    "ppe_boots": {"options": ["safety_boots_worn", "no_safety_boots"]},
+    "ppe_helmet": {
+        "options": ["helmet_worn", "no_helmet", "helmet_incorrect"],
+        "default": "helmet_worn"
+    },
+    "ppe_vest": {
+        "options": ["vest_worn", "no_vest"],
+        "default": "vest_worn"
+    },
+    "ppe_gloves": {
+        "options": ["gloves_worn", "no_gloves"],
+        "default": "gloves_worn"
+    },
+    "ppe_boots": {
+        "options": ["safety_boots_worn", "no_safety_boots"],
+        "default": "safety_boots_worn"
+    },
     "work_activity": {
         "options": ["idle", "welding", "cutting", "climbing", "lifting_materials", "machine_operation", "supervising",
-                    "walking"]},
-    "posture_safety": {"options": ["upright_normal", "bending", "overreaching", "unsafe_posture"]},
+                    "walking"],
+        "default": "idle"
+    },
+    "posture_safety": {
+        "options": ["upright_normal", "bending", "overreaching", "unsafe_posture"],
+        "default": "upright_normal"
+    },
     "hazard_proximity": {
-        "options": ["safe_zone", "near_hot_surface", "near_heavy_load", "near_moving_machine", "near_open_edge"]},
-    "team_interaction": {"options": ["working_alone", "pair_work", "small_team", "large_group", "supervisor_present"]},
+        "options": ["safe_zone", "near_hot_surface", "near_heavy_load", "near_moving_machine", "near_open_edge"],
+        "default": "safe_zone"
+    },
+    "team_interaction": {
+        "options": ["working_alone", "pair_work", "small_team", "large_group", "supervisor_present"],
+        "default": "working_alone"
+    },
 }
 
 

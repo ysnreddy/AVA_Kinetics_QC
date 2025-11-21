@@ -13,7 +13,7 @@ app = Flask(__name__)
 PROJECT_ROOT = r"F:\ava_kinetics" 
 
 # Define the full, raw path to the post_annotation_service.py script
-SCRIPT_PATH = r"services/post_annotation_service.py"
+SCRIPT_PATH = r"D:\Compressed\pycharm projects\AVA_kinetics_multiannotator\processing_pipeline\services\post_annotation_service.py"
 
 @app.route('/webhook', methods=['POST'])
 def cvat_webhook():
