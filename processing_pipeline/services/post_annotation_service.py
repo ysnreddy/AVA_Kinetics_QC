@@ -10,7 +10,6 @@ import os
 import psycopg2
 import psycopg2.extras
 import sys
-from dotenv import load_dotenv
 
 # Ensure we can find the sibling modules
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
@@ -237,27 +236,12 @@ def parse_args():
 
 
 if __name__ == "__main__":
-    # Load environment variables
-    load_dotenv()
-
-    # Get configuration from environment variables with fallback defaults
-    DB_PARAMS = {
-        "dbname": os.getenv("DB_NAME", "cvat_annotations_db"),
-        "user": os.getenv("DB_USER", "admin"),
-        "password": os.getenv("DB_PASSWORD", "admin"),
-        "host": os.getenv("DB_HOST", "localhost"),
-        "port": os.getenv("DB_PORT", "55432")
-    }
-
-    CVAT_HOST = os.getenv("CVAT_HOST", "http://localhost:8080")
-    CVAT_USERNAME = os.getenv("CVAT_USERNAME")
-    CVAT_PASSWORD = os.getenv("CVAT_PASSWORD")
-
-    # Check for required CVAT credentials
-    if not CVAT_USERNAME or not CVAT_PASSWORD:
-        logger.error("✗ CVAT credentials not found in environment variables.")
-        logger.error("  Please set CVAT_USERNAME and CVAT_PASSWORD in your .env file")
-        sys.exit(1)
+    # Update these credentials for your environment
+    DB_PARAMS = {"dbname": "cvat_annotations_db", "user": "admin", "password": "admin", "host": "localhost",
+                 "port": "55432"}
+    CVAT_HOST = "http://localhost:8080"
+    CVAT_USERNAME = "your_username_cvat"
+    CVAT_PASSWORD = "your_password_cvat""
 
     args = parse_args()
     try:

@@ -33,9 +33,9 @@ mutual_exclusivity:
 # This checks if an action implies a missing object context (future proofing for object detection)
 context_preconditions:
   welding:
-    require_object: "welder"
+    require_object: "weldeing_torch"
   cutting:
-    require_object: "cutter"
+    require_object: "gas_cutter"
   machine_operation:
     require_object: "machine"
 
