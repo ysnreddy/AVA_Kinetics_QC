@@ -1,0 +1,55 @@
+version: '3.3'
+
+# This override file properly configures proxy settings to avoid 407 errors
+# It ensures webhook requests to host.docker.internal work correctly
+
+services:
+  cvat_server:
+    environment:
+      # Unset proxy variables to prevent 407 errors
+      - http_proxy
+      - https_proxy
+      - HTTP_PROXY
+      - HTTPS_PROXY
+      # Set no_proxy for local connections
+      - no_proxy=localhost,127.0.0.1,host.docker.internal,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+      - NO_PROXY=localhost,127.0.0.1,host.docker.internal,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+      # Allow Smokescreen to connect to private IP ranges for webhooks
+      - SMOKESCREEN_OPTS=--allow-range 192.168.0.0/16 --allow-range 172.16.0.0/12 --allow-range 10.0.0.0/8
+
+  cvat_worker_webhooks:
+    environment:
+      # Unset proxy variables to prevent 407 errors
+      - http_proxy
+      - https_proxy
+      - HTTP_PROXY
+      - HTTPS_PROXY
+      # Set no_proxy for local connections
+      - no_proxy=localhost,127.0.0.1,host.docker.internal,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+      - NO_PROXY=localhost,127.0.0.1,host.docker.internal,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+      # Allow Smokescreen to connect to private IP ranges for webhooks
+      - SMOKESCREEN_OPTS=--allow-range 192.168.0.0/16 --allow-range 172.16.0.0/12 --allow-range 10.0.0.0/8
+
+  cvat_worker_export:
+    environment:
+      - http_proxy
+      - https_proxy
+      - no_proxy=localhost,127.0.0.1,host.docker.internal,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+
+  cvat_worker_import:
+    environment:
+      - http_proxy
+      - https_proxy
+      - no_proxy=localhost,127.0.0.1,host.docker.internal,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+
+  cvat_worker_annotation:
+    environment:
+      - http_proxy
+      - https_proxy
+      - no_proxy=localhost,127.0.0.1,host.docker.internal,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+
+  cvat_worker_quality_reports:
+    environment:
+      - http_proxy
+      - https_proxy
+      - no_proxy=localhost,127.0.0.1,host.docker.internal,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16

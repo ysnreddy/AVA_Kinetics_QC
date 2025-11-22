@@ -1,0 +1,5 @@
+# Environment variables with sensitive credentials
+.env
+
+# Keep the template file
+!.env.template

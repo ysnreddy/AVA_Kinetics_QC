@@ -1,0 +1,37 @@
+version: '3.8'
+services:
+  jobs_ui:
+    build: .
+    container_name: cvat_jobs_ui
+    command: streamlit run processing_pipeline/jobs_UI.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./processing_pipeline:/app/processing_pipeline
+      - ./proposal_generation_pipeline:/app/proposal_generation_pipeline
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true
+    restart: always
+  qc_app:
+    build: .
+    container_name: cvat_qc_app
+    command: streamlit run processing_pipeline/qc_app.py --server.port 8502 --server.address 0.0.0.0
+    ports:
+      - "8502:8502"
+    volumes:
+      - ./processing_pipeline:/app/processing_pipeline
+      - ./proposal_generation_pipeline:/app/proposal_generation_pipeline
+      - ./processing_pipeline/outputs:/app/outputs
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true
+    restart: always
+  webhook_listener:
+    build: .
+    container_name: cvat_webhook
+    command: python processing_pipeline/webhook_listener.py
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./processing_pipeline:/app/processing_pipeline
+      - ./proposal_generation_pipeline:/app/proposal_generation_pipeline
+    restart: always

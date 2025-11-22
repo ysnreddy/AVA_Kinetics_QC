@@ -1,0 +1,52 @@
+proposal_generation_pipeline/proposal_generation_pipeline/rf-detr-medium.pth
+.venv/
+proposal_generation_pipeline/proposal_generation_pipeline/uploads/
+.env
+processing_pipeline/outputs/
+testing/
+admin_ui/uploads
+admin_ui/final_outputs
+
+# Large model files
+*.pth
+*.pt
+*.onnx
+*.pb
+
+# Environment files
+*.env
+.env.*
+!.env.template
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker volumes
+cvat/data/
+cvat/logs/
+
+# Backup files
+*.bak
+*_backup/
+
+# Certificates
+*.pem
+*.key
+*.crt
+certs/
