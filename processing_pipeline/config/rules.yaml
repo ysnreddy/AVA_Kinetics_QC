@@ -1,0 +1,46 @@
+version: 1.1
+
+# --- Configuration for your specific AVA-Kinetics Schema ---
+
+# Values that should be ignored when counting active labels or checking conflicts.
+# These act as the "default" or "null" state for your attributes.
+ignore_values:
+  - "unknown"
+  - "idle"
+  - "no_helmet"
+  - "no_vest"
+  - "no_gloves"
+  - "no_safety_boots"
+  - "safe_zone"
+  - "working_alone"
+  - "upright_normal"
+
+# Limits on "Active" Labels (excluding the ignored ones above)
+# e.g., A person shouldn't be welding, cutting, and climbing all at once.
+limits:
+  max_active_labels: 4
+  min_box_area: 1000 # pixels
+
+# Mutual Exclusivity
+# Since your CVAT UI uses Dropdowns, exclusivity within an attribute (e.g. idle vs welding) is enforced by the UI.
+# Use this section to enforce exclusivity ACROSS different attributes if needed.
+mutual_exclusivity:
+  # Example: Can't be "walking" (Activity) and "bending" (Posture) at the same time?
+  # This is just an example rule. Adjust based on your physical constraints.
+  # upright_motion: ["walking", "bending"]
+
+# Context Preconditions
+# This checks if an action implies a missing object context (future proofing for object detection)
+context_preconditions:
+  welding:
+    require_object: "welder"
+  cutting:
+    require_object: "cutter"
+  machine_operation:
+    require_object: "machine"
+
+flags:
+  ME_CONFLICT: "block"    # Block submission if conflicting states found
+  CONTEXT_MISS: "flag"    # Warn if context object is missing
+  OVERLABEL: "flag"       # Warn if too many things are happening at once
+  TINY_BOX: "block"       # Reject noise/tiny boxes

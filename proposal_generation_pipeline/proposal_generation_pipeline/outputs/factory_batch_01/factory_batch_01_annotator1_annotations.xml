@@ -1,0 +1,318 @@
+<?xml version="1.0" ?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <name>factory_batch_01_annotator1</name>
+      <mode>annotation</mode>
+    </task>
+  </meta>
+  <image id="0" name="1_clip_000_frame_0221.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="332.3382873535156" ytl="0.480576753616333" xbr="428.462646484375" ybr="214.3251953125">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="240.0450897216797" ytl="254.83079528808594" xbr="345.0108642578125" ybr="559.80078125">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1166.9761962890625" ytl="0.5420529842376709" xbr="1278.10205078125" ybr="209.56845092773438">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="477.89361572265625" ytl="0.061106085777282715" xbr="597.1792602539062" ybr="90.54178619384766">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1018.937744140625" ytl="0.4948997497558594" xbr="1074.645751953125" ybr="182.0799560546875">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="708.2156982421875" ytl="0.1708647608757019" xbr="748.7105712890625" ybr="73.393310546875">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+  <image id="1" name="1_clip_001_frame_0152.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="1.7841196060180664" ytl="449.2729797363281" xbr="132.64645385742188" ybr="717.6394653320312">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1165.68798828125" ytl="0.8358514308929443" xbr="1279.48095703125" ybr="210.04566955566406">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="187.29656982421875" ytl="250.70376586914062" xbr="332.642333984375" ybr="545.985107421875">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1020.939208984375" ytl="0.4428166151046753" xbr="1074.476318359375" ybr="180.3629150390625">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="645.8701171875" ytl="-0.09205609560012817" xbr="717.3914184570312" ybr="73.02433013916016">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="543.4758911132812" ytl="0.1095011830329895" xbr="588.9970092773438" ybr="70.00102233886719">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+  <image id="2" name="1_clip_002_frame_0152.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="299.8941650390625" ytl="0.2190721035003662" xbr="386.5715026855469" ybr="186.94009399414062">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1167.00341796875" ytl="0.8256053924560547" xbr="1277.930908203125" ybr="209.26107788085938">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="446.9359130859375" ytl="-0.09957432746887207" xbr="526.257568359375" ybr="106.11612701416016">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="191.33343505859375" ytl="256.8081970214844" xbr="382.5909118652344" ybr="555.5821533203125">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="681.48291015625" ytl="-0.017085671424865723" xbr="778.7651977539062" ybr="97.36845397949219">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1019.021728515625" ytl="0.6011044979095459" xbr="1073.7900390625" ybr="180.48171997070312">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+  <image id="3" name="1_clip_003_frame_0212.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="31.82559585571289" ytl="486.4053955078125" xbr="141.8464813232422" ybr="718.5201416015625">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="187.83502197265625" ytl="257.77581787109375" xbr="376.1592102050781" ybr="554.6610717773438">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1168.2919921875" ytl="1.043851375579834" xbr="1276.4537353515625" ybr="209.5076446533203">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="815.4049682617188" ytl="114.09203338623047" xbr="924.2628173828125" ybr="406.3551025390625">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="409.873046875" ytl="203.40284729003906" xbr="571.4563598632812" ybr="474.8893127441406">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1021.4122314453125" ytl="0.3328728675842285" xbr="1094.4150390625" ybr="179.072509765625">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="719.3146362304688" ytl="0.3202718496322632" xbr="843.2357177734375" ybr="88.1336898803711">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+  <image id="4" name="1_clip_004_frame_0161.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="835.005615234375" ytl="136.04495239257812" xbr="920.863037109375" ybr="406.1008605957031">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1162.64208984375" ytl="0.9698653221130371" xbr="1279.3416748046875" ybr="210.36451721191406">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="248.0646514892578" ytl="244.6233367919922" xbr="349.96258544921875" ybr="544.9166259765625">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1021.3953857421875" ytl="0.35346686840057373" xbr="1089.5225830078125" ybr="174.93499755859375">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="418.0023498535156" ytl="209.31369018554688" xbr="541.9539794921875" ybr="333.35968017578125">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+  <image id="5" name="1_clip_005_frame_0161.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="625.9677734375" ytl="141.4637451171875" xbr="768.7920532226562" ybr="410.7083740234375">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1156.1922607421875" ytl="0.13723254203796387" xbr="1232.6524658203125" ybr="212.8939208984375">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="240.011474609375" ytl="228.30238342285156" xbr="338.68463134765625" ybr="526.0103149414062">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1022.0244750976562" ytl="0.18751323223114014" xbr="1088.0386962890625" ybr="174.56088256835938">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="450.5981140136719" ytl="193.15859985351562" xbr="531.5072021484375" ybr="332.8233337402344">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+  <image id="6" name="1_clip_006_frame_0218.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="1158.6632080078125" ytl="0.5912661552429199" xbr="1238.9588623046875" ybr="212.44113159179688">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="217.6702117919922" ytl="234.8555145263672" xbr="336.3768310546875" ybr="524.2240600585938">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="545.5028686523438" ytl="128.65660095214844" xbr="628.8135375976562" ybr="396.5198059082031">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1023.1876220703125" ytl="0.17612457275390625" xbr="1089.7120361328125" ybr="177.65335083007812">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="445.0210876464844" ytl="185.42861938476562" xbr="571.7900390625" ybr="475.6696472167969">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="88.5040283203125" ytl="606.2466430664062" xbr="199.7165069580078" ybr="719.9425659179688">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+  <image id="7" name="1_clip_007_frame_0227.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="772.2857666015625" ytl="151.27633666992188" xbr="909.864501953125" ybr="416.5005798339844">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="236.00257873535156" ytl="258.0040588378906" xbr="341.9532775878906" ybr="550.1600952148438">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1184.5164794921875" ytl="0.5668580532073975" xbr="1254.8564453125" ybr="215.98233032226562">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="536.2210693359375" ytl="184.2248077392578" xbr="709.9873046875" ybr="471.0391540527344">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1022.3310546875" ytl="0.2950429916381836" xbr="1088.35400390625" ybr="172.05520629882812">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="780.4501342773438" ytl="-0.046812593936920166" xbr="810.4637451171875" ybr="72.2201156616211">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+  <image id="8" name="1_clip_008_frame_0167.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="639.0082397460938" ytl="148.33981323242188" xbr="727.6471557617188" ybr="441.2579345703125">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="472.93402099609375" ytl="435.819091796875" xbr="593.3759765625" ybr="718.1369018554688">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="841.5205078125" ytl="151.37660217285156" xbr="907.39794921875" ybr="423.9181213378906">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1179.55615234375" ytl="0.4165470600128174" xbr="1251.9542236328125" ybr="216.095458984375">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1023.1613159179688" ytl="0.311812162399292" xbr="1090.45654296875" ybr="178.60377502441406">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="222.5626220703125" ytl="0.4530411958694458" xbr="275.2148132324219" ybr="115.37689208984375">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+  <image id="9" name="1_clip_009_frame_0197.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="540.0237426757812" ytl="101.08917236328125" xbr="653.2874145507812" ybr="375.1619873046875">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1169.5513916015625" ytl="0.25946617126464844" xbr="1246.29736328125" ybr="211.70053100585938">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="324.7161560058594" ytl="-0.03992199897766113" xbr="389.5879821777344" ybr="134.94129943847656">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="212.78993225097656" ytl="220.97853088378906" xbr="297.2042236328125" ybr="507.892333984375">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1028.634521484375" ytl="0.024992823600769043" xbr="1084.6195068359375" ybr="162.1089324951172">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="491.46380615234375" ytl="211.0552978515625" xbr="617.8593139648438" ybr="380.3726806640625">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+  <image id="10" name="1_clip_010_frame_0206.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="575.9977416992188" ytl="138.78155517578125" xbr="693.9927978515625" ybr="414.4713439941406">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1168.068603515625" ytl="0.14478564262390137" xbr="1244.1431884765625" ybr="212.287109375">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="317.2214660644531" ytl="-0.19324779510498047" xbr="383.0798034667969" ybr="134.5965576171875">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="245.68356323242188" ytl="278.4084777832031" xbr="346.4601135253906" ybr="498.49847412109375">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1029.5179443359375" ytl="0.050307512283325195" xbr="1086.0814208984375" ybr="160.7685546875">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="476.41552734375" ytl="215.38278198242188" xbr="601.7033081054688" ybr="358.5345458984375">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+  <image id="11" name="1_clip_011_frame_0158.jpg" width="1280" height="720">
+    <box label="person" occluded="0" xtl="884.13037109375" ytl="185.74468994140625" xbr="952.2415161132812" ybr="469.3523864746094">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1167.1090087890625" ytl="0.3278517723083496" xbr="1242.6256103515625" ybr="212.88694763183594">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="428.6602478027344" ytl="340.3051452636719" xbr="531.4880981445312" ybr="676.1688232421875">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="677.9421997070312" ytl="166.33067321777344" xbr="754.0231323242188" ybr="456.25146484375">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="325.0011901855469" ytl="0.09657025337219238" xbr="404.17254638671875" ybr="135.5175018310547">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+    <box label="person" occluded="0" xtl="1030.8626708984375" ytl="0.06305873394012451" xbr="1086.1015625" ybr="161.5822296142578">
+      <attribute name="work_activity">idle</attribute>
+      <attribute name="ppe_helmet">helmet_worn</attribute>
+    </box>
+  </image>
+</annotations>

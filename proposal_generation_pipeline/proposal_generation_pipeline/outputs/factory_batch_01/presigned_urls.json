@@ -1,0 +1,10 @@
+{
+  "annotator1": {
+    "keyframes_zip": "https://ava-new-kinetics.s3.amazonaws.com/factory_batch_01/frames_zip/factory_batch_01_annotator1_keyframes.zip?AWSAccessKeyId=AKIAV5AJX2CYVSEXMUTN&Signature=vaaGmU0OXI%2FT72lCiJkCh0xAejw%3D&Expires=1766386427",
+    "annotations_xml": "https://ava-new-kinetics.s3.amazonaws.com/factory_batch_01/annotations/factory_batch_01_annotator1_annotations.xml?AWSAccessKeyId=AKIAV5AJX2CYVSEXMUTN&Signature=tlB2EhHztKDewogw4d5plXDRCrQ%3D&Expires=1766386438"
+  },
+  "annotator2": {
+    "keyframes_zip": "https://ava-new-kinetics.s3.amazonaws.com/factory_batch_01/frames_zip/factory_batch_01_annotator2_keyframes.zip?AWSAccessKeyId=AKIAV5AJX2CYVSEXMUTN&Signature=vgNpwapB8xdDoRoHJ9C1bTa%2BKiU%3D&Expires=1766386435",
+    "annotations_xml": "https://ava-new-kinetics.s3.amazonaws.com/factory_batch_01/annotations/factory_batch_01_annotator2_annotations.xml?AWSAccessKeyId=AKIAV5AJX2CYVSEXMUTN&Signature=0jJnf%2BDiV%2Fqk9GXYGhfHsGZmEmw%3D&Expires=1766386439"
+  }
+}

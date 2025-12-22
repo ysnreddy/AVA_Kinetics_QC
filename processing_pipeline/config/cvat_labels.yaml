@@ -1,0 +1,75 @@
+project_name: factory_safety
+
+labels:
+  - name: person
+    color: "#ff0000"
+    attributes:
+      - name: ppe_helmet
+        mutable: true
+        input_type: select
+        default_value: helmet_worn
+        values: [helmet_worn, no_helmet, helmet_incorrect]
+
+      - name: ppe_vest
+        mutable: true
+        input_type: select
+        default_value: vest_worn
+        values: [vest_worn, no_vest]
+
+      - name: ppe_gloves
+        mutable: true
+        input_type: select
+        default_value: gloves_worn
+        values: [gloves_worn, no_gloves]
+
+      - name: ppe_boots
+        mutable: true
+        input_type: select
+        default_value: safety_boots_worn
+        values: [safety_boots_worn, no_safety_boots]
+
+      - name: work_activity
+        mutable: true
+        input_type: select
+        default_value: idle
+        values:
+          - idle
+          - welding
+          - cutting
+          - climbing
+          - lifting_materials
+          - machine_operation
+          - supervising
+          - walking
+
+      - name: posture_safety
+        mutable: true
+        input_type: select
+        default_value: upright_normal
+        values:
+          - upright_normal
+          - bending
+          - overreaching
+          - unsafe_posture
+
+      - name: hazard_proximity
+        mutable: true
+        input_type: select
+        default_value: safe_zone
+        values:
+          - safe_zone
+          - near_hot_surface
+          - near_heavy_load
+          - near_moving_machine
+          - near_open_edge
+
+      - name: team_interaction
+        mutable: true
+        input_type: select
+        default_value: working_alone
+        values:
+          - working_alone
+          - pair_work
+          - small_team
+          - large_group
+          - supervisor_present
